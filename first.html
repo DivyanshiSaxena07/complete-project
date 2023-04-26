@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Quize</p>
+
+<button onclick="setTimeout(myFunction, 2000);">Try it</button>
+
+<script>
+
+    var que=["Who_is_the_Father_of_our_Nation:","Who_was_the_first_President_of_India:"
+    ,"Who_is_known_as_Father_of_Indian_Constitution:",
+    "Which_is_the_most_sensitive_organ_in_our_body:",
+    "Giddha_is_the_folk_dance_of:Panjab"]
+   var ans=["MAhatmaGandhi","Dr. Rajendra Prasad","Dr.B.R.Ambetkar","Skin","Panjab"] 
+    myAnser();
+    
+
+function myAnser(){
+    for(var i=0;i<5;i++){
+document.write(que[i]+"<br>");
+setTimeout(myTimeout1, 1000) 
+setTimeout(myTimeout2, 2000) 
+setTimeout(myTimeout3, 3000) 
+   document.write(ans[i]+"<br>");
+}
+
+
+}
+
+
+setTimeout(myTimeout1, 1000) 
+setTimeout(myTimeout2, 2000) 
+setTimeout(myTimeout3, 3000) 
+
+function myTimeout1() {
+  document.getElementById("demo").innerHTML = "1 seconds";
+}
+function myTimeout2() {
+  document.getElementById("demo").innerHTML = "2 seconds";
+}
+function myTimeout3() {
+  document.getElementById("demo").innerHTML = "3 seconds";
+}
+</script>
+
+
+<!-- </script> -->
+
+    
+</body>
+</html>

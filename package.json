@@ -1,0 +1,17 @@
+{
+  "name": "practice-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "mongoose": "^6.3.5",
+    "parser": "^0.1.4"
+  }
+}
